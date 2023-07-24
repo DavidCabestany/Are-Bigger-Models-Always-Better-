@@ -105,17 +105,9 @@ For future experiments, we suggest exploring the boundary where DistilBERT can s
 
 Keep on experimenting and improving, and we'll get there! 🚀
 
-## ⚙️ Getting Started
-
-(Provide instructions for installation and usage here)
-
-## 🤝 How to Contribute
-
-(Provide details about how others can contribute to your project here)
-
 ## 👀 Peek into the Code
 
-For a better understanding of the project's inner workings, check out these [code snippets](./CODE_SNIPPETS.md).
+For a better understanding of the project's inner workings, check out these [code snippets](./Scripts).
 
 ## 👏 Kudos
 

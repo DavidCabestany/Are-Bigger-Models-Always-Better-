@@ -1,16 +1,36 @@
-# Are Large Models Better than Small Models A kind approach
+Sure, I will incorporate key insights from your paper into the README. Here's the revised version:
+
+```markdown
+# Are Large Language Models Better than Small Language Models? A Kind Approach
 
 A fascinating exploration of the capabilities and efficiencies of Language Models (LMs) by **David Cabestany and Clara Adsuar**.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Why this Study](#why-this-study)
+- [Methodologies](#methodologies)
+- [Tools and Models](#tools-and-models)
+- [Learning Methods](#learning-methods)
+- [Dataset](#dataset)
+- [Results](#results)
+- [Implications](#implications)
+- [Installation/Usage](#installationusage)
+- [Contributing](#contributing)
+- [Code Snippets](#code-snippets)
+- [Acknowledgements](#acknowledgements)
+- [Contact Information](#contact-information)
+- [License](#license)
+
 ## Overview
 
-This project investigates the effectiveness and efficiency of large-scale LMs (BERT) and their smaller versions (DistilBERT), focusing on their performance, computational cost, and environmental footprint. These LMs have gained immense popularity in recent years for their incredible performance in Deep Learning and NLP tasks.
+Language Models (LMs) have shown an exponential growth in size and popularity during the last decades. This growth has been measured by the number of parameters and the size of the training data used. This project compares the performance of the large-scale BERT model with the smaller DistilBERT model, both pre-trained with Masked Language Modeling and used for sentimental classification on the same dataset.
 
-## Why this study
+## Why this Study
 
-With the exponential growth of LMs, a common assumption has been - the larger the model, the better the performance. However, the potential drawbacks of this "bigger is better" mindset, such as biases, harmful learning patterns, and high financial/environmental costs, are often overlooked.
+The popularity impact of LMs in Deep Learning and NLP field created a competition that in the beginning was about achieving better performances, but it seemed to resume on the idea “the more quantity, the more quality”. However, recent studies have highlighted the risks of large LMs, including biases, harmful learning patterns, and high environmental and financial costs. 
 
-We aim to shed light on this topic by comparing and analyzing the performance of BERT and DistilBERT, focusing on the principle that quality doesn't always necessarily mean larger quantities.
+This project aims to challenge this "bigger is better" mindset and investigates whether smaller models like DistilBERT can be as effective as larger ones like BERT while being more efficient and environmentally friendly.
 
 ## Methodologies
 
@@ -23,54 +43,39 @@ We aim to shed light on this topic by comparing and analyzing the performance of
 1. **BERT** - Transformer-based model for language representation that uses unlabelled text for pre-training bidirectional representations.
 2. **DistilBERT** - A smaller, more efficient version of BERT obtained through knowledge distillation that shows comparable performance on many downstream tasks.
 
+## Learning Methods
+
+Currently, models achieve remarkable results when trained with large amounts of labeled data. However, labeled datasets are not always available due to resources like time, human effort, and financial support. Therefore, this study employs few-shot and zero-shot learning techniques, which aim to create a deep learning model that learns how to generalize with a low (or null) quantity of examples.
+
 ## Dataset
 
-Our study uses the Amazon product data created by Julian McAuley for sentiment analysis in text classification. Specifically, we chose the 'Movies and TV' category from the dataset, extracting 10,000 reviews from the 5-core subset.
+This study uses the Amazon product data created by Julian McAuley for sentiment analysis in text classification. Specifically, we chose the 'Movies and TV' category from the dataset, extracting 10,000 reviews from the 5-core subset.
 
 ![Amazon Movies and TV Shows Dataset](https://image.url/dataset)
 
 ## Results
 
-### Few-shot DistilBERT Confusion Matrix
+For detailed results, including confusion matrices and performance metrics for few-shot and zero-shot learning for both DistilBERT and BERTBase, please refer to the original paper. In summary, while BERTBase showed slightly higher results in some scenarios, DistilBERT demonstrated a fairly good behaviour even when the number of parameters is lower than BERTBase. 
 
-|           | Negative | Positive |
-| --------- | -------- | -------- |
-| Negative  | 4552     | 68       |
-| Positive  | 3998     | 321      |
+## Implications
 
-### Few-shot BERTBase Confusion Matrix
+The findings of this project challenge the notion that larger LMs are inherently superior. It shows that smaller models like DistilBERT can compete effectively in terms of performance while also being more efficient and environmentally friendly. 
 
-|           | Negative | Positive |
-| --------- | -------- | -------- |
-| Negative  | 4906     | 12       |
-| Positive  | 4737     | 81       |
+## Installation/Usage
 
-### Metrics Few-shot DistilBERT
+(Tell users how to install and use your project here)
 
-|           | Value |
-| --------- | ----- |
-| Precision | 0.452 |
-| Recall    | 0.324 |
-| F1 Macro  | 0.263 |
-| F1 Micro  | 0.487 |
+## Contributing
 
-### Metrics Few-shot BERTBase
+(Explain how others can contribute to your project here)
 
-|           | Value |
-| --------- | ----- |
-| Precision | 0.459 |
-| Recall    | 0.332 |
-| F1 Macro  | 0.233 |
-| F1 Micro  | 0.498 |
+## Code Snippets
 
+For more details on how this project works, check out these [code snippets](./CODE_SNIPPETS.md).
 
+## Acknowledgements
 
-## What does this mean?
-
-The implications of this project are twofold: 
-
-1. It challenges the notion that larger LMs are inherently superior, showing that smaller models like DistilBERT can compete effectively in terms of performance. 
-2. This study also brings to the forefront the importance of considering the environmental and financial cost of training LMs. In a world where both economic and ecological factors are of paramount importance, moving towards more efficient and "greener" LMs could be a significant step in the right direction.
+This project has been developed as a final assignment for the subject Deep Learning in the Master’s program HAP-LAP at the University of the Basque Country (EHU/UPV). This project has been supervised by Ander Barrena.
 
 ## Contact Information
 
@@ -78,20 +83,15 @@ The implications of this project are twofold:
 
 We appreciate your interest in our project! For more information, please visit the project repository and feel free to reach out with any questions or comments. 
 
----
-
-_NOTE: This project is continuously updated. The latest update was on July 20, 2023._
-
----
-
-Feel free to ⭐️ this repository if this project interests you! 😊
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/username/repo/LICENSE.md) file for details.
 
 ---
 
-Last Updated: 2022-07-20
+_Last Updated: 2023-07-24_
+
+Feel free to ⭐️ this repository if this project interests you! 😊
+```
+
+Please replace the placeholders in the "Installation/Usage" and "Contributing" sections with the appropriate details.

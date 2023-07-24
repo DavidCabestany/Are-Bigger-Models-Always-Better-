@@ -52,9 +52,35 @@ We make use of few-shot and zero-shot learning techniques in this study, as labe
 
 Our research makes use of the Amazon product dataset curated by Julian McAuley for sentiment analysis in text classification. We have selected the 'Movies and TV' category, extracting 10,000 reviews from the 5-core subset for this study.
 
-<p align="center">
-  <img src="https://image.url/dataset" />
-</p>
+<table style="width:100%; border:1px solid #000;">
+  <thead>
+    <tr style="background-color:#F8F8F8;">
+      <th>Reviewer Name</th>
+      <th>Review Format</th>
+      <th>Rating</th>
+      <th>Summary</th>
+      <th>Review Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Torrlisand67</td>
+      <td>Blu-ray</td>
+      <td>4.0</td>
+      <td>classic sci-fi 1950's</td>
+      <td>real sharp beautiful detail. great extras. if you enjoy classic 50's sci-fi you will enjoy owning this disc.</td>
+    </tr>
+    <tr>
+      <td>brutus2011</td>
+      <td>Blu-ray</td>
+      <td>5.0</td>
+      <td>Better in Blu-Ray</td>
+      <td>This classic b&w sci-fi movie in blu-ray is spectacular...anyone who doubts how much better blu-ray is compared to regular dvd media needs to see this one!</td>
+    </tr>
+    <!-- Add additional rows here -->
+  </tbody>
+</table>
+
 
 ## 📈 Key Findings
 

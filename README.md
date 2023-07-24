@@ -8,7 +8,7 @@ The project is a collaborative endeavor by **David Cabestany and Clara Adsuar**.
   <img src="./prompting_image.jpeg" />
 </p>
 
-## 🚩 Table of Contents
+## 🚩 Table of Contents <a name="table-of-contents"></a>
 
 1. [Project Synopsis](#project-synopsis)
 2. [The Need for this Study](#the-need-for-this-study)

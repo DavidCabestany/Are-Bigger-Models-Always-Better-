@@ -1,6 +1,8 @@
 # A Comparative Analysis of Large vs Small Language Models: Are Bigger Models Always Better?
 
-This repository hosts a compelling study delving into the capabilities and efficiencies of Language Models (LMs). The project is a collaborative endeavor by **David Cabestany and Clara Adsuar**.
+This repository hosts a compelling study delving into the capabilities and efficiencies of Language Models (LMs). 
+
+The project is a collaborative endeavor by **David Cabestany and Clara Adsuar**.
 
 <p align="center">
   <img src="./prompting_image.jpeg" />

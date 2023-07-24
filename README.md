@@ -1,89 +1,90 @@
-Sure, I will incorporate key insights from your paper into the README. Here's the revised version:
+# A Comparative Analysis of Large vs Small Language Models: Are Bigger Models Always Better?
 
-```markdown
-# Are Large Language Models Better than Small Language Models? A Kind Approach
+This repository hosts a compelling study delving into the capabilities and efficiencies of Language Models (LMs). The project is a collaborative endeavor by **David Cabestany and Clara Adsuar**.
 
-A fascinating exploration of the capabilities and efficiencies of Language Models (LMs) by **David Cabestany and Clara Adsuar**.
+<p align="center">
+  <img src="https://image.url/dataset_visualization" />
+</p>
 
-## Table of Contents
+## 🚩 Table of Contents
 
-- [Overview](#overview)
-- [Why this Study](#why-this-study)
-- [Methodologies](#methodologies)
-- [Tools and Models](#tools-and-models)
-- [Learning Methods](#learning-methods)
-- [Dataset](#dataset)
-- [Results](#results)
-- [Implications](#implications)
-- [Installation/Usage](#installationusage)
-- [Contributing](#contributing)
-- [Code Snippets](#code-snippets)
-- [Acknowledgements](#acknowledgements)
-- [Contact Information](#contact-information)
-- [License](#license)
+1. [Project Synopsis](#project-synopsis)
+2. [The Need for this Study](#the-need-for-this-study)
+3. [Methodologies](#methodologies)
+4. [Models and Tools](#models-and-tools)
+5. [Learning Techniques](#learning-techniques)
+6. [The Dataset](#the-dataset)
+7. [Key Findings](#key-findings)
+8. [What Does this Mean?](#what-does-this-mean)
+9. [Getting Started](#getting-started)
+10. [How to Contribute](#how-to-contribute)
+11. [Peek into the Code](#peek-into-the-code)
+12. [Kudos](#kudos)
+13. [Reach Out](#reach-out)
+14. [License](#license)
 
-## Overview
+## 🧪 Project Synopsis
 
-Language Models (LMs) have shown an exponential growth in size and popularity during the last decades. This growth has been measured by the number of parameters and the size of the training data used. This project compares the performance of the large-scale BERT model with the smaller DistilBERT model, both pre-trained with Masked Language Modeling and used for sentimental classification on the same dataset.
+This study investigates the growth of Language Models (LMs) in terms of their size and popularity over the recent decades. It primarily focuses on a comparative analysis of the performance of the large-scale BERT model against the smaller DistilBERT model, both pre-trained with Masked Language Modeling and tested for sentiment classification on the same dataset.
 
-## Why this Study
+## 💡 The Need for this Study
 
-The popularity impact of LMs in Deep Learning and NLP field created a competition that in the beginning was about achieving better performances, but it seemed to resume on the idea “the more quantity, the more quality”. However, recent studies have highlighted the risks of large LMs, including biases, harmful learning patterns, and high environmental and financial costs. 
+The race to achieve superior performances in the field of Deep Learning and NLP has cultivated a "more is better" mindset. However, potential pitfalls of large LMs like biases, harmful learning patterns, and the hefty environmental and financial costs cannot be ignored. Our project challenges this norm, and explores if smaller models like DistilBERT can match the efficiency of larger ones like BERT, while being more resource-friendly.
 
-This project aims to challenge this "bigger is better" mindset and investigates whether smaller models like DistilBERT can be as effective as larger ones like BERT while being more efficient and environmentally friendly.
+## 🛠️ Methodologies
 
-## Methodologies
+- **Masked Language Modeling (MLM)**: A common pre-training method in NLP for deriving text representations.
+- **Transfer Learning**: A technique that employs knowledge from one set of tasks to aid in a new, similar task.
+- **Few and Zero-shot Learning**: Methods devised to enable deep learning models to generalize with minimal (or zero) example instances.
 
-1. **Masked Language Modeling (MLM)** - A broadly used pre-training method in NLP for learning text representations.
-2. **Transfer Learning** - The technique involves transferring the knowledge from a set of tasks to a new similar task.
-3. **Few and Zero-shot Learning** - Techniques to create deep learning models that learn how to generalize with a low (or null) quantity of examples.
+## 🧩 Models and Tools
 
-## Tools and Models
+- **BERT**: A Transformer-based model for language representation that employs unlabelled text for pre-training bidirectional representations.
+- **DistilBERT**: A leaner and more efficient rendition of BERT, obtained through knowledge distillation, that displays comparable performance on numerous downstream tasks.
 
-1. **BERT** - Transformer-based model for language representation that uses unlabelled text for pre-training bidirectional representations.
-2. **DistilBERT** - A smaller, more efficient version of BERT obtained through knowledge distillation that shows comparable performance on many downstream tasks.
+## 🎓 Learning Techniques
 
-## Learning Methods
+We make use of few-shot and zero-shot learning techniques in this study, as labeled datasets can be resource-intensive due to constraints like time, human effort, and financial inputs. These methods strive to develop a deep learning model that can generalize effectively with minimal (or zero) example instances.
 
-Currently, models achieve remarkable results when trained with large amounts of labeled data. However, labeled datasets are not always available due to resources like time, human effort, and financial support. Therefore, this study employs few-shot and zero-shot learning techniques, which aim to create a deep learning model that learns how to generalize with a low (or null) quantity of examples.
+## 📊 The Dataset
 
-## Dataset
+Our research makes use of the Amazon product dataset curated by Julian McAuley for sentiment analysis in text classification. We have selected the 'Movies and TV' category, extracting 10,000 reviews from the 5-core subset for this study.
 
-This study uses the Amazon product data created by Julian McAuley for sentiment analysis in text classification. Specifically, we chose the 'Movies and TV' category from the dataset, extracting 10,000 reviews from the 5-core subset.
+<p align="center">
+  <img src="https://image.url/dataset" />
+</p>
 
-![Amazon Movies and TV Shows Dataset](https://image.url/dataset)
+## 📈 Key Findings
 
-## Results
+For an in-depth view of the results, including confusion matrices and performance metrics for few-shot and zero-shot learning for both DistilBERT and BERTBase, we encourage you to refer to the original paper. In a nutshell, despite BERTBase performing slightly better in some scenarios, DistilBERT displayed robust performance, even with a lower parameter count.
 
-For detailed results, including confusion matrices and performance metrics for few-shot and zero-shot learning for both DistilBERT and BERTBase, please refer to the original paper. In summary, while BERTBase showed slightly higher results in some scenarios, DistilBERT demonstrated a fairly good behaviour even when the number of parameters is lower than BERTBase. 
+## 🌎 What Does this Mean?
 
-## Implications
+Our findings pose a strong counter to the perception that larger LMs are inherently better. It establishes that leaner models like DistilBERT can compete efficiently in terms of performance while also being more resource-efficient and environmentally friendly. 
 
-The findings of this project challenge the notion that larger LMs are inherently superior. It shows that smaller models like DistilBERT can compete effectively in terms of performance while also being more efficient and environmentally friendly. 
+## ⚙️ Getting Started
 
-## Installation/Usage
+(Provide instructions for installation and usage here)
 
-(Tell users how to install and use your project here)
+## 🤝 How to Contribute
 
-## Contributing
+(Provide details about how others can contribute to your project here)
 
-(Explain how others can contribute to your project here)
+## 👀 Peek into the Code
 
-## Code Snippets
+For a better understanding of the project's inner workings, check out these [code snippets](./CODE_SNIPPETS.md).
 
-For more details on how this project works, check out these [code snippets](./CODE_SNIPPETS.md).
+## 👏 Kudos
 
-## Acknowledgements
+We developed this project as a final assignment for the subject Deep Learning in the Master’s program HAP-LAP at the University of the Basque Country (EHU/UPV). Our supervisor for the project was Ander Barrena.
 
-This project has been developed as a final assignment for the subject Deep Learning in the Master’s program HAP-LAP at the University of the Basque Country (EHU/UPV). This project has been supervised by Ander Barrena.
-
-## Contact Information
+## 📞 Reach Out
 
 - David Cabestany - dcabesma@gmail.com
 
 We appreciate your interest in our project! For more information, please visit the project repository and feel free to reach out with any questions or comments. 
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/username/repo/LICENSE.md) file for details.
 
@@ -92,6 +93,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 _Last Updated: 2023-07-24_
 
 Feel free to ⭐️ this repository if this project interests you! 😊
-```
-
-Please replace the placeholders in the "Installation/Usage" and "Contributing" sections with the appropriate details.

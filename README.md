@@ -1,4 +1,4 @@
-# Big vs Small: Unveiling the Power and Performance of BERT and DistilBERT
+# Are Large Models Better than Small Models A kind approach
 
 A fascinating exploration of the capabilities and efficiencies of Language Models (LMs) by **David Cabestany and Clara Adsuar**.
 

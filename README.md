@@ -3,7 +3,7 @@
 This repository hosts a compelling study delving into the capabilities and efficiencies of Language Models (LMs). The project is a collaborative endeavor by **David Cabestany and Clara Adsuar**.
 
 <p align="center">
-  <img src="https://image.url/dataset_visualization" />
+  <img src="./prompting_image.jpeg" />
 </p>
 
 ## 🚩 Table of Contents
